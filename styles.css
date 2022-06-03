@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.left_banner{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: max(200px,40%);
+    height: 100vh;
+    background-image: url("pexels-vasilis-karkalas-12017866.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    
+}
+
+@font-face {
+    font-family: nord;
+    src: url(norse-bold-webfont.woff),url(norse-bold-webfont.woff2);
+}
+
+
+.right_banner{
+    width: max(200px,60%);
+}
+
+.logo_banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5D5C6142;
+    height: 15vh;
+    margin-bottom:35vh;
+    position: relative;
+    
+    
+}
+h1{
+    color:rgb(255, 255, 255);
+    font-family: nord;
+}
+
+
+.logo{
+	/* max-height: 100vh; */
+	max-height: 100%;
+	max-width: 100%;
+	object-fit: cover;
+}

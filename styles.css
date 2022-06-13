@@ -1,3 +1,12 @@
+label,input{
+    display: inline;
+
+  }
+
+.form1,.form2,.form3   {
+    padding: 20px;
+    
+}
 .container {
     display: flex;
     flex-direction: row;
@@ -24,6 +33,10 @@
     src: url(norse-bold-webfont.woff),url(norse-bold-webfont.woff2);
 }
 
+h2{
+    font-family: nord;
+    src: url(norse-bold-webfont.woff),url(norse-bold-webfont.woff2);
+}
 
 .main_content{
     width: max(200px,60%);
@@ -62,4 +75,21 @@ p{
 .description{
     background-color: rgb(244, 247, 247);
     height: min(50px,10%);
+}
+
+.submission{
+    height: min(50px,10%);
+}
+
+button{
+    background-color: rgb(234, 160, 64);
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 15px 32px;
+    margin-left: 30px;
+}
+
+.loginText{
+    margin-top: 60px;
 }

@@ -1,12 +1,8 @@
 label,input{
-    display: inline;
+    display: block;
 
   }
 
-.form1,.form2,.form3   {
-    padding: 20px;
-    
-}
 .container {
     display: flex;
     flex-direction: row;
@@ -18,7 +14,8 @@ label,input{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: max(200px,40%);
+    /*width: max(200px,30%);*/
+    flex-basis: 40%;
     height: 100vh;
     background-image: url("pexels-vasilis-karkalas-12017866.jpg");
     background-repeat: no-repeat;
@@ -41,6 +38,9 @@ h2{
 .main_content{
     width: max(200px,60%);
     height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .logo_banner{
@@ -74,7 +74,7 @@ p{
 
 .description{
     background-color: rgb(244, 247, 247);
-    height: min(50px,10%);
+    padding: 5px;
 }
 
 .submission{
@@ -93,3 +93,14 @@ button{
 .loginText{
     margin-top: 60px;
 }
+
+.formCard{
+    padding: 100px;
+    align-self: stretch;
+}
+
+.firstName, .email , .password{
+    float: left;
+    margin-right: 80px;
+}
+

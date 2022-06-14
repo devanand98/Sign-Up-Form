@@ -1,8 +1,19 @@
 label,input{
     display: block;
+    border-radius: 5px;
+    font-family: sans-serif;
 
   }
 
+  input{
+      border-color: #e5e7eb;
+  }
+
+  input:focus{
+      border-color: blue;
+      border-width: 1px;
+      box-shadow: 3px 3px rgb(173,173,173);
+  }
 .container {
     display: flex;
     flex-direction: row;
@@ -79,6 +90,8 @@ p{
 
 .submission{
     height: min(50px,10%);
+    align-self: stretch;
+    padding-left: 70px;
 }
 
 button{
